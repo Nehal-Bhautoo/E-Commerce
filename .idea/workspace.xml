@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6f99832-6734-4883-b6c5-5320228102ff" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/php/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/php/vendor/composer" />
+      <path value="$PROJECT_DIR$/php/vendor/mongodb/mongodb" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1W9WeGCRBreUFSicQEmBVFiusRl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="PluginDummyText.Genre" value="latin" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/product-images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\E-commerce\assets\product-images" />
+      <recent name="C:\E-commerce\json" />
+      <recent name="C:\E-commerce\php" />
+      <recent name="C:\E-commerce\assets\images" />
+      <recent name="C:\E-commerce\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\E-commerce\php" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6f99832-6734-4883-b6c5-5320228102ff" name="Default Changelist" comment="" />
+      <created>1578562386048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578562386048</updated>
+      <workItem from="1578562394645" duration="13086000" />
+      <workItem from="1578587549662" duration="10858000" />
+      <workItem from="1578647560108" duration="7125000" />
+      <workItem from="1578666921858" duration="6030000" />
+      <workItem from="1578730340520" duration="2733000" />
+      <workItem from="1578886372535" duration="225000" />
+      <workItem from="1578892730366" duration="202000" />
+      <workItem from="1578893330937" duration="2494000" />
+      <workItem from="1579573271273" duration="218000" />
+      <workItem from="1579573670445" duration="27944000" />
+      <workItem from="1579671085417" duration="30373000" />
+      <workItem from="1579756990326" duration="5436000" />
+      <workItem from="1579786055553" duration="10725000" />
+      <workItem from="1579843643578" duration="11909000" />
+      <workItem from="1579858487519" duration="2518000" />
+      <workItem from="1581136304923" duration="7159000" />
+      <workItem from="1581319336946" duration="2542000" />
+      <workItem from="1581325095685" duration="227000" />
+      <workItem from="1581326996307" duration="7011000" />
+      <workItem from="1581432438537" duration="601000" />
+      <workItem from="1581667131875" duration="2776000" />
+      <workItem from="1581751439866" duration="10975000" />
+      <workItem from="1581837555209" duration="16140000" />
+      <workItem from="1581918641593" duration="1851000" />
+      <workItem from="1581922688948" duration="3789000" />
+      <workItem from="1581928997607" duration="685000" />
+      <workItem from="1581930541835" duration="6354000" />
+      <workItem from="1581946282383" duration="8012000" />
+      <workItem from="1582010763196" duration="12167000" />
+      <workItem from="1582086047787" duration="838000" />
+      <workItem from="1582089812010" duration="22120000" />
+      <workItem from="1582114450771" duration="677000" />
+      <workItem from="1582137515936" duration="9982000" />
+      <workItem from="1582180463318" duration="16735000" />
+      <workItem from="1582201131707" duration="1007000" />
+      <workItem from="1582206478323" duration="15557000" />
+      <workItem from="1582222564109" duration="86000" />
+      <workItem from="1582266551754" duration="5460000" />
+      <workItem from="1582274121972" duration="1510000" />
+      <workItem from="1583084925554" duration="3322000" />
+      <workItem from="1583123029712" duration="1351000" />
+      <workItem from="1583127076641" duration="7366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582194641126">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="430" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/1366.0.1600.900@0.0.1366.768" timestamp="1582194641126" />
+    <state x="363" y="119" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579573435423">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="363" y="119" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1579573435423" />
+    <state x="459" y="296" key="ComposerInitDialogKey" timestamp="1583085740350">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="459" y="296" key="ComposerInitDialogKey/0.0.1366.768@0.0.1366.768" timestamp="1583085740350" />
+    <state x="184" y="25" key="SettingsEditor" timestamp="1578587467611">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="25" key="SettingsEditor/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1578587467611" />
+    <state x="329" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582197644806">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="329" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1582141901053" />
+    <state x="329" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768/1366.0.1600.900@0.0.1366.768" timestamp="1582193779382" />
+    <state x="1828" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581331815522" />
+    <state x="329" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1582197644805" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1579798236712">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1579798236712" />
+  </component>
+</project>

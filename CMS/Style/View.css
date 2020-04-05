@@ -1,0 +1,113 @@
+body {
+    background-image: url(../Images/MainBG.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+label {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 28%;
+    padding-top: 5%;
+    font-size: 25px;
+}
+
+input {
+    height: 25px;
+    width: 500px;
+}
+
+button {
+    height: 25px;
+}
+
+.nav {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+}
+
+nav a {
+    color: #272829;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #adadad;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+header {
+    background: #777777;
+    height: 4%;
+    display: block;
+}
+
+.highlight {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #777777;
+}
+
+.footer_section {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #777777;
+}
+
+.search_box {
+    margin-left: 10%;
+}
+
+table {
+    margin-top: 5%;
+    margin-left: 5%;
+}

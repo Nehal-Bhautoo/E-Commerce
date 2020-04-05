@@ -1,0 +1,544 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic; 
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position:center;
+}
+
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top:25px;
+}
+	
+ul li{
+	display:inline-block;
+}
+
+ul li a {
+	text-decoration:none;
+	color:#fff;
+	padding:5px 20px;
+	border: 1px solid transparent;
+	transition:0.6s ease;
+}
+
+ul li a:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+ul li.active a{
+	background-color:#fff;
+	color:#000;
+	
+}
+
+#container {
+    position: fixed;
+    width: 340px;
+    height: 280px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -170px;
+	background: #000000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+	
+}
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+label {
+    color: #fff;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+p a {
+    font-size: 14px;
+    color: #000000;
+    float: right;
+    margin-top: -13px;
+    margin-right: 20px;
+    transition: all .4s ease;
+}
+p a:hover {
+    color: #555;
+}
+input {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+input[type=text],
+input[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+	border: 1px solid #300000 ;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #F00000 ;
+	}
+input[type=text]:hover,
+input[type=password]:hover {
+    border: 1px solid #300000 ;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #F00000 ;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 1px solid #300000;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #F00000 ;
+}
+#lower {
+    background: #ffffff ;
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+	box-shadow: inset 0 1px 1px #fff;
+    border-top: 1px solid #ccc;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+input[type=checkbox] {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.check {
+    margin-left: 3px;
+	font-size: 14px;
+    color: #444;
+    text-shadow: 0 1px 0 #fff;
+}
+input[type=submit] {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #F00000 ;
+    border-radius: 30px;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+#container {
+    position: fixed;
+    width: 340px;
+    height: 280px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -170px;
+	background: #000000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+	
+}
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+label {
+    color: #fff;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+p a {
+    font-size: 14px;
+    color: #000000;
+    float: right;
+    margin-top: -13px;
+    margin-right: 20px;
+    transition: all .4s ease;
+}
+p a:hover {
+    color: #555;
+}
+input {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+input[type=text],
+input[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+	border: 1px solid #300000 ;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #F00000 ;
+	}
+input[type=text]:hover,
+input[type=password]:hover {
+    border: 1px solid #300000 ;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #F00000 ;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 1px solid #300000;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #F00000 ;
+}
+#lower {
+    background: #ffffff ;
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+	box-shadow: inset 0 1px 1px #fff;
+    border-top: 1px solid #ccc;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+input[type=checkbox] {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.check {
+    margin-left: 3px;
+	font-size: 14px;
+    color: #444;
+    text-shadow: 0 1px 0 #fff;
+}
+input[type=submit] {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #F00000 ;
+    border-radius: 30px;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+#container2 {
+    position: fixed;
+    width: 360px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -170px;
+	background: #000000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    overflow-y: scroll;
+	
+}
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+label {
+    color: #fff;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+p a {
+    font-size: 14px;
+    color: #000000;
+    float: right;
+    margin-top: -13px;
+    margin-right: 20px;
+    transition: all .4s ease;
+}
+p a:hover {
+    color: #555;
+}
+input {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+input[type=text],
+input[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+	border: 1px solid #300000 ;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #F00000 ;
+	}
+input[type=text]:hover,
+input[type=password]:hover {
+    border: 1px solid #300000 ;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #F00000 ;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 1px solid #300000;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #F00000 ;
+}
+#lower {
+    background: #ffffff ;
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+	box-shadow: inset 0 1px 1px #fff;
+    border-top: 1px solid #ccc;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+input[type=checkbox] {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.check {
+    margin-left: 3px;
+	font-size: 14px;
+    color: #444;
+    text-shadow: 0 1px 0 #fff;
+}
+input[type=submit] {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #F00000 ;
+    border-radius: 30px;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+#container3 {
+    position: fixed;
+    width: 360px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -170px;
+    background: #000000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    overflow-y: scroll;
+	
+}
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+label {
+    color: #fff;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+p a {
+    font-size: 14px;
+    color: #000000;
+    float: right;
+    margin-top: -13px;
+    margin-right: 20px;
+    transition: all .4s ease;
+}
+p a:hover {
+    color: #555;
+}
+input {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+input[type=text],
+input[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+	border: 1px solid #300000 ;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #F00000 ;
+	}
+input[type=text]:hover,
+input[type=password]:hover {
+    border: 1px solid #300000 ;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #F00000 ;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 1px solid #300000;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #F00000 ;
+}
+#lower {
+    background: #ffffff ;
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+	box-shadow: inset 0 1px 1px #fff;
+    border-top: 1px solid #ccc;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+input[type=checkbox] {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.check {
+    margin-left: 3px;
+	font-size: 14px;
+    color: #444;
+    text-shadow: 0 1px 0 #fff;
+}
+input[type=submit] {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #F00000 ;
+    border-radius: 30px;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+#container4 {
+    position: fixed;
+    width: 340px;
+    height: 120px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -170px;
+	background: #000000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+	
+}
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+label {
+    color: #fff;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+p a {
+    font-size: 14px;
+    color: #000000;
+    float: right;
+    margin-top: -13px;
+    margin-right: 20px;
+    transition: all .4s ease;
+}
+p a:hover {
+    color: #555;
+}
+input {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+input[type=text],
+input[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+	border: 1px solid #300000 ;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #F00000 ;
+	}
+input[type=text]:hover,
+input[type=password]:hover {
+    border: 1px solid #300000 ;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #F00000 ;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 1px solid #300000;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #F00000 ;
+}
+#lower {
+    background: #ffffff ;
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+	box-shadow: inset 0 1px 1px #fff;
+    border-top: 1px solid #ccc;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+input[type=checkbox] {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.check {
+    margin-left: 3px;
+	font-size: 14px;
+    color: #444;
+    text-shadow: 0 1px 0 #fff;
+}
+input[type=submit] {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #F00000 ;
+    border-radius: 30px;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+

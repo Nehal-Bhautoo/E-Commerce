@@ -1,0 +1,72 @@
+
+.main{
+    font-family: Century Gothic, sans-serif;
+}
+
+.title{
+	color:#fff;
+    font-weight: bold;
+}
+
+.main{
+	background-color: #1d2124;
+	background-size: cover;
+}
+
+.containerSignUp .signupbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.containerSignUp .signupbtn:hover {
+  opacity: 0.8;
+}
+
+.containerSignUp {
+  padding: 150px;
+
+}
+
+.containerSignUp input[type=text], input[type=pass2] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.containerSignUp input[type=text]:focus, input[type=pass2]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.signupbtn {
+  background-color: #3D120E;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.signupbtn:hover {
+  opacity: 1;
+}
+
+.options form {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.select {
+  font-size: 22px;
+  font-weight: bold;
+}

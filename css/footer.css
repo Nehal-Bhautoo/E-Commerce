@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Great+Vibes|Kaushan+Script|Pathway+Gothic+One|Teko&display=swap');
+
+:root {
+    --Gayathri-font:"Gayathri",cursive;
+    --Great:"Great",cursive;
+    --Kaushan:"Kaushan",cursive;
+    --Pathway:"Pathway",cursive;
+    --Teko:"Teko",cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(
+            to bottom, #dd2476, #ff512f
+    );
+    --light-gray:rgba(255,255,255,0.5);
+}
+
+footer {
+    background: rgba(0,0,0,0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span {
+    color: #ff512f;
+}
+
+footer input {
+    border: none;
+}
+
+footer input::placeholder {
+    color: white;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i {
+    color: #dd2476;
+}
+
+footer .column i + i {
+    padding: 0 0.5em;
+}
+
+footer {
+    font-size: 1.5em;
+}
